@@ -1,0 +1,119 @@
+.admin-panel {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.admin-panel h1 {
+  color: #1a1a2e;
+  margin-bottom: 30px;
+}
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 12px 24px;
+  background: #e0e0e0;
+  color: #333;
+  border-radius: 6px 6px 0 0;
+}
+
+.tabs button.active {
+  background: white;
+  color: #1a1a2e;
+}
+
+.panel-content {
+  background: white;
+  padding: 20px;
+  border-radius: 0 8px 8px 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.create-form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.create-form input,
+.create-form select {
+  padding: 10px 12px;
+}
+
+.create-form input {
+  flex: 1;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.admin-table th {
+  background: #f8f9fa;
+  font-weight: 600;
+}
+
+.admin-table select {
+  padding: 6px 10px;
+}
+
+.admin-table button.danger {
+  background: #dc3545;
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.flagged-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.flagged-item {
+  padding: 16px;
+  background: #fff3cd;
+  border-radius: 6px;
+  border-left: 4px solid #ffc107;
+}
+
+.flagged-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: #666;
+}
+
+.flagged-item p {
+  margin-bottom: 12px;
+}
+
+.flagged-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.flagged-actions button {
+  padding: 6px 16px;
+  font-size: 13px;
+}
+
+.empty {
+  text-align: center;
+  color: #888;
+  padding: 40px;
+}

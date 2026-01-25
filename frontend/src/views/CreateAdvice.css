@@ -1,0 +1,70 @@
+.create-advice {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.create-advice h1 {
+  color: #1a1a2e;
+  margin-bottom: 30px;
+}
+
+.advice-form {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.advice-form .form-group {
+  margin-bottom: 20px;
+}
+
+.advice-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333;
+}
+
+.advice-form input,
+.advice-form textarea,
+.advice-form select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.advice-form select[multiple] {
+  height: 120px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.form-actions button {
+  padding: 12px 24px;
+}
+
+.form-actions button.secondary {
+  background: #6c757d;
+}

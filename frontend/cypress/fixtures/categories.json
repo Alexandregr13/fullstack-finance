@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Actions",
+    "parentId": null,
+    "level": 0,
+    "children": [
+      { "id": 3, "name": "Tech", "parentId": 1, "level": 1, "children": [] },
+      { "id": 4, "name": "Finance", "parentId": 1, "level": 1, "children": [] }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Crypto",
+    "parentId": null,
+    "level": 0,
+    "children": []
+  },
+  {
+    "id": 5,
+    "name": "Obligations",
+    "parentId": null,
+    "level": 0,
+    "children": []
+  }
+]

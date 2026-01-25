@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title": "Investir dans les tech stocks",
+    "summary": "Les valeurs technologiques restent prometteuses",
+    "content": "Détails du conseil...",
+    "investmentType": "long_term",
+    "estimatedGain": 15.5,
+    "confidenceIndex": 75,
+    "assets": ["AAPL", "MSFT", "GOOGL"],
+    "author": { "id": 1, "name": "John Doe" },
+    "categories": [{ "id": 1, "name": "Actions" }],
+    "createdAt": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Opportunité sur le marché crypto",
+    "summary": "Bitcoin pourrait atteindre de nouveaux sommets",
+    "content": "Analyse détaillée...",
+    "investmentType": "short_term",
+    "estimatedGain": 25,
+    "confidenceIndex": 60,
+    "assets": ["BTC", "ETH"],
+    "author": { "id": 2, "name": "Jane Smith" },
+    "categories": [{ "id": 2, "name": "Crypto" }],
+    "createdAt": "2024-01-14T15:30:00Z"
+  }
+]
